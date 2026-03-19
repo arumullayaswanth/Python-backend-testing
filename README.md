@@ -38,7 +38,8 @@ yum install python3-pip -y
 pip3 install flask mysql-connector-python
 yum install git -y
 git clone https://github.com/arumullayaswanth/Python-backend-testing.git
-python3 app.py
+cd Python-backend-testing
+python3 flask_rds_user_api.py
 ```
 
 ### To run Flask in background:
