@@ -47,20 +47,20 @@ python3 flask_rds_user_api.py
 nohup allows your app to continue running even after terminal disconnect:
 
 ```bash
-nohup python3 app.py > flask.log 2>&1 &
+nohup python3 flask_rds_user_api.py > flask.log 2>&1 &
 tail -f flask.log
 ```
 
 To check if the app is running:
 
 ```bash
-ps aux | grep app.py
+ps aux | grep flask_rds_user_api.py
 ```
 
 To stop it:
 
 ```bash
-pkill -f app.py
+pkill -f flask_rds_user_api.py
 ```
 
 ---
