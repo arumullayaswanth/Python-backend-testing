@@ -50,8 +50,7 @@ sudo su -
 yum install python3-pip -y
 pip3 install flask mysql-connector-python
 yum install git -y
-git clone https://github.com/arumullayaswanth/AWS-Lambda-boto3-automation.git
-cd 4.python-backend-testing
+git clone https://github.com/arumullayaswanth/Python-backend-testing.git
 python3 app.py
 ```
 
