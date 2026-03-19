@@ -32,21 +32,8 @@ CREATE TABLE users (
 SELECT * FROM dev.users;
 ```
 #### Deploy Flask Backend on EC2
-```bash
-sudo su -
-yum install python3-pip -y
-pip3 install flask mysql-connector-python
-yum install git -y
-git clone https://github.com/arumullayaswanth/AWS-Lambda-boto3-automation.git
-cd 4.python-backend-testing
-python3 app.py
-```
-
-
-### Connect to your EC2 instance:
 
 ```bash
-sudo su -
 yum install python3-pip -y
 pip3 install flask mysql-connector-python
 yum install git -y
